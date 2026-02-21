@@ -26,8 +26,11 @@ app.post('/api/counterfactual', (_req: express.Request, _res: express.Response) 
 
 // Start the application
 app.listen(port, (): void => {
-    console.log(`TIMEŒ App is running on http://localhost:${port}`);
-  });
+  console.log('==============================');
+  console.log('         Edo World');
+  console.log('==============================');
+  console.log(`TIMEŒ App is running on http://localhost:${port}`);
+});
 
 const tsConfig = {
   "compilerOptions": {
